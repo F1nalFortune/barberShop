@@ -1,30 +1,55 @@
 import React from 'react';
 import { Link } from 'react-router';
 import Footer from '../components/Footer';
+import Landing from '../components/Landing';
+import $ from 'jquery';
 
 
 class App extends React.Component {
   componentDidMount() {
     window.jQuery('.button-collapse').sideNav();
+
+    var scrollTop = 0;
+    $(window).scroll(function(){
+      scrollTop = $(window).scrollTop();
+       $('.counter').html(scrollTop);
+
+      if (scrollTop >= 100) {
+        $('#global-nav').addClass('scrolled-nav');
+      } else if (scrollTop < 100) {
+        $('#global-nav').removeClass('scrolled-nav');
+      }
+
+    });
+
   }
+
+
 
   render() {
     return (
-      <div>
-        <nav>
-          <div className="nav-wrapper">
-            <a href="#!" className="brand-logo">My App</a>
-            <a href="#" data-activates="mobile" className="button-collapse"><i className="material-icons">menu</i></a>
-            <ul className="right hide-on-med-and-down">
-            </ul>
-            <ul className="side-nav" id="mobile">
+    <div>
+      <nav id="global-nav" className="nav">
+        <div className="container">
+          <div className="pull-left">
+            <h1 className="site-title">
+              Barber Shop
+            </h1>
+          </div>
+          <div className="pull-right">
+            <ul className="nav-list">
+              <li>SERVICES</li>
+              <li>HOURS</li>
+              <li>LOCATION</li>
             </ul>
           </div>
-        </nav>
-        {this.props.children}
-      </div>
+        </div>
+      </nav>
+      {this.props.children}
+    </div>
     )
   }
 }
+
 
 export default App;
