@@ -28,6 +28,7 @@ class App extends React.Component {
 
   render() {
     return (
+  <div>
     <div>
       <nav id="global-nav" className="nav">
         <div className="container">
@@ -47,6 +48,8 @@ class App extends React.Component {
       </nav>
       {this.props.children}
     </div>
+    <Footer />
+  </div>
     )
   }
 }

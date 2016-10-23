@@ -21,6 +21,18 @@ body {
     transition: height .5s, line-height .5s;
 }
 
+.slides{
+  height:600px !important;
+}
+
+.indicators{
+  position:static !important;
+}
+
+.slider .indicators .indicator-item.active{
+  background-color: rgb(48, 189, 255) !important;
+}
+
 .pull-left {
     float: left!important;
 }
