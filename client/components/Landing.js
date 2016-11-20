@@ -2,6 +2,8 @@ import React from 'react';
 import $ from 'jquery';
 import Carousel from './Carousel';
 import { Parallax } from 'react-parallax';
+import Services from './Services';
+import Contact from './Contact';
 
 class Landing extends React.Component {
   constructor(props){
@@ -14,17 +16,13 @@ class Landing extends React.Component {
     return(
       <div>
         <Carousel />
-         <div className="hero-section">
-            <div className="container">
-              <div className="hero-text">
-                <h1>Image Carosel</h1>
-                <p>Far far away, behind the word mountains,
-                far from the countries Vokalia and Consonantia,
-                there live the blind texts. Separated they live
-                in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean.</p>
-              </div>
-            </div>
+          <div>
+            <Services />
+          </div>
+          <div className="wide-screen-image">
+          </div>
+          <div>
+            <Contact />
           </div>
 
           <div className="content-section">

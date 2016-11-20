@@ -16,15 +16,15 @@ class Carousel extends React.Component {
           <Slider className="slides"
             >
             <Slide
-            src="http://res.cloudinary.com/mydevpoint/image/upload/v1475902084/josh_long_khb0lv.jpg"
+            src="http://www.mrmaroosh.com/wp-content/uploads/2013/11/cut_throat_barbershop.jpg"
             >
             </Slide>
             <Slide
-            src="http://res.cloudinary.com/mydevpoint/image/upload/v1475902077/brett_long_eaemwm.jpg"
+            src="http://theharlow.net/wp-content/uploads/2012/10/about-image-11.jpg"
             >
             </Slide>
             <Slide
-            src="http://res.cloudinary.com/mydevpoint/image/upload/v1475902092/lorna_long_rlrtlo.jpg"
+            src="https://i.ytimg.com/vi/8RlX96MV7xk/maxresdefault.jpg"
             >
             </Slide>
           </Slider>
@@ -35,4 +35,4 @@ class Carousel extends React.Component {
   }
 }
 
-export default Carousel
+export default Carousel;

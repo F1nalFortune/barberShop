@@ -21,6 +21,27 @@ body {
     transition: height .5s, line-height .5s;
 }
 
+#first-image{
+  Opacity: 0.2;
+}
+
+.react-parallax-bgimage{
+  Opacity: 0.2;
+}
+
+.react-parallax{
+  height: 500px;
+}
+
+.wide-screen-image{
+  background-image: url('http://www.spotlighttoronto.com/_content/2011/foodanddrink/elitstoli/elitstoli_dec2011-05.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  position: relative;
+}
+
 .slides{
   height:600px !important;
 }
