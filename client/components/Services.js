@@ -10,7 +10,7 @@ const Services = React.createClass({
             <h1 className='col s7 offset-s3 sitefont center'>SERVICES</h1>
             <hr />
             <div className="container">
-              <div className="row">
+              <div className="row sitefont">
                 <div className="col s4 m4">
                   <p>Haircut</p>
                   <p>Haircut + Fade</p>

@@ -5,6 +5,8 @@ import { Parallax } from 'react-parallax';
 import Services from './Services';
 import Contact from './Contact';
 import Products from './Products';
+import About from './About';
+import Instagram from './Instagram';
 
 class Landing extends React.Component {
   constructor(props){
@@ -26,6 +28,12 @@ class Landing extends React.Component {
           <div className="second-screen-image">
           </div>
           <Products />
+          <div className="third-screen-image">
+          </div>
+          <About />
+          <div className="fourth-screen-image">
+          </div>
+          <Instagram />
 
 
 

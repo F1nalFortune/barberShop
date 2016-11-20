@@ -1,17 +1,17 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 
-const Contact = React.createClass({
+const Products = React.createClass({
     render: function () {
   	return (
     	<div>
-        <Parallax bgImage="http://www.journeysthrumylens.com/wp-content/uploads/2013/06/GrandAveBridge1-800x533.jpg" strength={400}>
+        <Parallax bgImage="http://www.canadianbeautyandspa.com/wp-content/uploads/2012/01/CTRS_MG_4852-553x369.jpg" strength={400}>
             <br/>
-            <h1 className='col s7 offset-s3 sitefont center'>LOCATION</h1>
+            <h1 className='col s7 offset-s3 sitefont center'>PRODUCTS</h1>
         </Parallax>
       </div>
     )
   }
 });
 
-export default Contact;
+export default Products;

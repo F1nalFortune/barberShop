@@ -51,6 +51,24 @@ body {
   position: relative;
 }
 
+.third-screen-image{
+  background-image: url('https://s-media-cache-ak0.pinimg.com/736x/90/dd/50/90dd505dd175df43371578343cda900f.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  position: relative;
+}
+
+.fourth-screen-image{
+  background-image: url('https://thumbs.dreamstime.com/z/happy-barber-enjoying-work-young-trimming-client-s-sideburns-loving-his-job-39930460.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  position: relative;
+}
+
 #slider{
   margin-bottom: 0px;
 }
@@ -146,7 +164,7 @@ footer {
   margin-top: 0px !important;
 }
 
-.site-font{
+.sitefont{
   font-family: 'Cormorant Unicase', serif;
 }
 
