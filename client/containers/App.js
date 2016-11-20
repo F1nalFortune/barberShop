@@ -33,7 +33,7 @@ class App extends React.Component {
       <nav id="global-nav" className="nav">
         <div className="container">
           <div className="pull-left">
-            <h1 className="site-title">
+            <h1 className="site-title site-font">
               Barber Shop
             </h1>
           </div>

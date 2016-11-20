@@ -42,12 +42,27 @@ body {
   position: relative;
 }
 
+.second-screen-image{
+  background-image: url('https://static1.squarespace.com/static/54d00f4ee4b0488c074a60e4/t/5732731686db439cb3fe24de/1462924056974/background-services.jpg?format=1500w');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  position: relative;
+}
+
+#slider{
+  margin-bottom: 0px;
+}
+
 .slides{
   height:600px !important;
 }
 
 .indicators{
-  position:static !important;
+  position:absolute !important;
+  overflow: hidden;
+  z-index: 500;
 }
 
 .slider .indicators .indicator-item.active{
@@ -126,3 +141,40 @@ footer {
   color: #fff;
   padding-top: 40px;
 }
+
+.page-footer{
+  margin-top: 0px !important;
+}
+
+.site-font{
+  font-family: 'Cormorant Unicase', serif;
+}
+
+/*
+.nav {
+    background-color:transparent;
+    color:#fff;
+    transition: all 0.25s ease;
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color:#ccc;
+    padding:1em 0;
+
+}
+
+.nav.past-main {
+    background-color:#fff;
+    color:#444;
+}
+
+#main {
+  height:500px;
+  background-color:red;
+}
+
+#below-main {
+  height:1000px;
+  background-color:#eee;
+}
+*/

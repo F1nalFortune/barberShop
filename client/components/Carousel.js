@@ -12,7 +12,7 @@ class Carousel extends React.Component {
 
     return (
       <div>
-        <div className="row">
+        <div id="slider" className="row">
           <Slider className="slides"
             >
             <Slide
