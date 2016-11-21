@@ -160,6 +160,14 @@ footer {
   padding-top: 40px;
 }
 
+.footer-image{
+  position: absolute;
+  height: 150px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  margin-top: 85px;
+}
+
 .page-footer{
   margin-top: 0px !important;
 }
@@ -168,6 +176,15 @@ footer {
   font-family: 'Cormorant Unicase', serif;
 }
 
+IMG.displayed{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+  width:15%;
+}
 /*
 .nav {
     background-color:transparent;
