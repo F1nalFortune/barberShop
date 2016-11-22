@@ -27,10 +27,10 @@ class Landing extends React.Component {
           <Contact />
           <div className="second-screen-image">
           </div>
-          <Products />
+          <About />
           <div className="third-screen-image">
           </div>
-          <About />
+          <Products />
           <div className="fourth-screen-image">
           </div>
           <Instagram />
