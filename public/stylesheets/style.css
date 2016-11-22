@@ -185,6 +185,79 @@ IMG.displayed{
 .card{
   width:15%;
 }
+
+.section-break {
+    border-top: 3px solid rgba(160, 160, 159, 1);
+    border-bottom: 1px solid rgba(160, 160, 159, 1);
+    padding: 3px 0 0 0;
+}
+
+/* PARALLAX COMPONENTS */
+
+#title{
+  margin-top: 0px;
+  letter-spacing: 10px;
+  font-weight: bold;
+}
+
+#contact{
+  height:350px;
+}
+
+#no-margin{
+  margin-bottom:0px;
+}
+
+/* END PARALLAX COMPONENTS*/
+
+/* Collabsible Styles */
+
+.img-size{
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.Collapsible {
+  background-color: white; }
+
+.Collapsible__contentInner {
+  padding: 0px;
+  border: 1px solid #ebebeb;
+  border-top: 0; }
+  .Collapsible__contentInner p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px; }
+    .Collapsible__contentInner p:last-child {
+      margin-bottom: 0; }
+
+.Collapsible__trigger {
+  margin-bottom:0px;
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  color: #333333;
+  position: relative;
+  border: 1px solid white;
+  padding: 10px;
+  background: #00ac9d;
+  color: white; }
+  .Collapsible__trigger:after {
+    font-family: 'FontAwesome';
+    content: '\f103' !important;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    transition: transform 300ms; }
+  .Collapsible__trigger.is-open:after {
+    transform: rotateZ(180deg); }
+
+/* End Collapsible Styles */
+
+
 /*
 .nav {
     background-color:transparent;

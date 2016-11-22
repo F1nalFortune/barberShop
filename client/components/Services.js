@@ -7,8 +7,8 @@ const Services = React.createClass({
     	<div>
         <Parallax bgImage="https://c2.staticflickr.com/6/5320/14043890978_239a2e4606_b.jpg" strength={400}>
             <br/>
-            <h1 className='col s7 offset-s3 sitefont center'>SERVICES</h1>
-            <hr />
+            <h3 id="title" className='col s7 offset-s3 sitefont center'>SERVICES</h3>
+            <hr className="service-break"/>
             <div className="container">
               <div className="row sitefont">
                 <div className="col s4 m4">

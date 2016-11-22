@@ -7,7 +7,7 @@ const About = React.createClass({
     	<div>
         <Parallax bgImage="https://s-media-cache-ak0.pinimg.com/564x/34/d6/04/34d60463ad2b785f5c2b00c8b030d8e1.jpg" strength={400}>
             <br/>
-            <h1 className='col s7 offset-s3 sitefont center'>ABOUT</h1>
+            <h3 id="title" className='col s7 offset-s3 sitefont center'>ABOUT</h3>
         </Parallax>
       </div>
     )
