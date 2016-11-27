@@ -8,6 +8,7 @@ const Contact = React.createClass({
         <Parallax bgImage="https://s-media-cache-ak0.pinimg.com/736x/28/2c/e0/282ce06aca3809b1690c8898530d6b40.jpg" strength={400}>
             <br/>
             <h3 id="title" className='col s7 offset-s3 sitefont center'>CONTACT</h3>
+            <hr/>
             <div className="container">
               <div className="row sitefont">
                 <div className="col s4 m4">

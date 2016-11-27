@@ -13,7 +13,7 @@ class Footer extends React.Component {
       <footer className="page-footer blue-grey darken-4 footer-div">
         <div className="footer-copyright">
             <div className="row">
-              <p>
+              <p className="center">
                 © 2016 EMMA'S BARBERSHOP ALL RIGHTS RESERVED
               </p>
             </div>

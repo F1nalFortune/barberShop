@@ -7,6 +7,7 @@ import Contact from './Contact';
 import Products from './Products';
 import About from './About';
 import Instagram from './Instagram';
+import Scrollspy from 'react-scrollspy';
 
 class Landing extends React.Component {
   constructor(props){

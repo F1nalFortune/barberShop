@@ -229,7 +229,8 @@ IMG.displayed{
 .Collapsible__contentInner {
   padding: 0px;
   border: 1px solid #ebebeb;
-  border-top: 0; }
+  border-top: 0;
+  height: 300px; }
   .Collapsible__contentInner p {
     margin-bottom: 10px;
     font-size: 14px;

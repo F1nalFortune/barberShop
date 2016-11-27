@@ -69,9 +69,10 @@ const Products = React.createClass({
                   </Collapsible>;
   	return (
     	<div>
-        <Parallax bgImage="http://www.streamlineworkspace.com/thumbs/featured/1024x768/33394/33394-9r.jpg" strength={1000}>
+        <Parallax bgImage="http://www.streamlineworkspace.com/thumbs/featured/1024x768/33394/33394-9r.jpg" strength={200}>
             <br/>
             <h3 id="title" className='sitefont center'>PRODUCTS</h3>
+            <hr/>
             <p className="center">Click for more Info.</p>
             <div id="no-margin" className="row">
               <div className="col s6 m3 offset-m3">

@@ -8,6 +8,7 @@ const About = React.createClass({
         <Parallax bgImage="https://s-media-cache-ak0.pinimg.com/564x/34/d6/04/34d60463ad2b785f5c2b00c8b030d8e1.jpg" strength={400}>
             <br/>
             <h3 id="title" className='col s7 offset-s3 sitefont center'>ABOUT</h3>
+            <hr/>
             <p className="center">
               Major key, don’t fall for the trap, stay focused. It’s the ones
               closest to you that want to see you fail. Always remember in the
